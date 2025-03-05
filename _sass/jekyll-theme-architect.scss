@@ -3,13 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* LAYOUT STYLES */
-.text-wrapper {
-  background: rgba(0, 0, 0, 0.5);
-  padding: 10px;
-  border-radius: 5px;
-  display: inline-block;
-}
-
 body {
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
@@ -69,6 +62,7 @@ header h2 {
 #content-wrapper {
   padding-top: 30px;
   border-top: solid 1px #fff;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 #main-content {
