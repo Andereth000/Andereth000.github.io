@@ -2,4 +2,14 @@
 layout: default
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a gravida mauris. Curabitur justo diam, auctor nec neque vel, accumsan elementum libero. Proin fringilla elementum purus eget iaculis. Fusce nunc felis, placerat sodales eros vitae, aliquam fermentum libero. Nullam vitae blandit ante, a posuere felis. Nulla id lacus lectus. Nunc bibendum orci sagittis tortor laoreet, vel posuere elit porttitor. Suspendisse dignissim sem eget nunc condimentum convallis. In erat arcu, sollicitudin vel quam congue, vulputate fringilla ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla facilisi. Cras eget lobortis leo. Duis feugiat dapibus risus ac tincidunt. Cras eu ante ac diam pharetra ullamcorper eu commodo nunc. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+Hello! My name is Ethan Anderson. I am a **Computer Science student** at Southern New Hampshire University, graduating in April of 2025.
+
+My passions lie in **graphics programming**, **game engines/development**, and **real-time rendering**. Currently, I am working part-time as a **lead developer** on a **full-stack web application**.
+
+This page is temporarily empty while I work hard on my capstone project. There is a button at the top of the page which links to my github account. Feel free to check out those repositories in the meantime.
+
+If there are more projects you would like to see I can privately share the code. 👀
+
+All the best!
+
+-Ethan Anderson
