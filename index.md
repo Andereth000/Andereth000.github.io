@@ -39,6 +39,11 @@ Enhancement One (ImGUI and Mesh Editor)
   cursor: zoom-in;
 }
 
+@media (hover: hover) and (pointer: fine) {
+  .hover-zoom {
+    cursor: zoom-in;
+  }
+
 .hover-zoom:hover {
   transform: scale(2.5);
   z-index: 10;
