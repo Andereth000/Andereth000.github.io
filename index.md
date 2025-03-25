@@ -10,7 +10,7 @@ This page is in progress while I work hard on my capstone project. My github acc
 
 If there are more projects you would like to see I can privately share the code. 👀
 
-All the best!
+Thank you for the interest in my work!
 
 -Ethan Anderson
 
