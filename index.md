@@ -27,9 +27,20 @@ Credenza OpenGL Code Review
 ## Week Three
 Enhancement One (ImGUI and Mesh Editor)
 
-<video autoplay loop muted playsinline
-  style="border: 2px solid #ccc; border-radius: 10px; width: 500px; max-width: 560px; box-shadow: 0 4px 8px rgba(0,0,0,1);"
-  onclick="this.style.width = this.style.width === '800px' ? '400px' : '800px';">
+<video class ="hover-zoom" autoplay loop muted playsinline
+  style="border: 2px solid #ccc; border-radius: 10px; width: 500px; max-width: 560px; box-shadow: 0 4px 8px rgba(0,0,0,1);">
   <source src="videos/Enhancement One Web.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+<style>
+.hover-zoom {
+  transition: transform 0.3s ease;
+  cursor: zoom-in;
+}
+
+.hover-zoom:hover {
+  transform: scale(1.2);
+  z-index: 10;
+}
+</style>
