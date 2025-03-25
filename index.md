@@ -13,3 +13,9 @@ If there are more projects you would like to see I can privately share the code.
 All the best!
 
 -Ethan Anderson
+
+## CS-499 Capstone
+
+# Week Two - Credenza OpenGL Code Review
+
+[![CS-499 Code Review - Credenza OpenGL](https://img.youtube.com/vi/4-teGXIMeoE/0.jpg)](https://youtu.be/4-teGXIMeoE)
