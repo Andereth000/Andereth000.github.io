@@ -14,16 +14,18 @@ All the best!
 
 -Ethan Anderson
 
-## CS-499 Capstone
+# CS-499 Capstone
 
-Week Two - Credenza OpenGL Code Review
+## Week Two
+Credenza OpenGL Code Review
 
 <a href="https://youtu.be/4-teGXIMeoE" target="_blank">
   <img src="https://imgur.com/QzFq6PU.png" alt="Play Video"
        style="border: 2px solid #ccc; border-radius: 10px; width: 500px; max-width: 560px; box-shadow: 0 4px 8px rgba(0,0,0,1);">
 </a>
 
-Week Three - Enhancement One (ImGUI and Mesh Editor)
+## Week Three
+Enhancement One (ImGUI and Mesh Editor)
 
 <video autoplay loop muted playsinline
   style="border: 2px solid #ccc; border-radius: 10px; width: 500px; max-width: 560px; box-shadow: 0 4px 8px rgba(0,0,0,1);">
