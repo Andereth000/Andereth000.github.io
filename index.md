@@ -20,5 +20,5 @@ Week Two - Credenza OpenGL Code Review
 
 <a href="https://youtu.be/4-teGXIMeoE" target="_blank">
   <img src="https://imgur.com/QzFq6PU.png" alt="Play Video"
-       style="border: 2px solid #ccc; border-radius: 10px; width: 100%; max-width: 560px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+       style="border: 2px solid #ccc; border-radius: 10px; width: 100%; max-width: 560px; box-shadow: 0 4px 8px rgba(0,0,0,1);">
 </a>
