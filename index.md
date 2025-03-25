@@ -22,3 +22,11 @@ Week Two - Credenza OpenGL Code Review
   <img src="https://imgur.com/QzFq6PU.png" alt="Play Video"
        style="border: 2px solid #ccc; border-radius: 10px; width: 100%; max-width: 560px; box-shadow: 0 4px 8px rgba(0,0,0,1);">
 </a>
+
+Week Three - Enhancement One (ImGUI and Mesh Editor)
+
+<video autoplay loop muted playsinline>
+  <source src="videos/Enhancement One Web.mp4" type="video/mp4"
+          style="border: 2px solid #ccc; border-radius: 10px; width: 100%; max-width: 560px; box-shadow: 0 4px 8px rgba(0,0,0,1);">
+  Your browser does not support the video tag.
+</video>
