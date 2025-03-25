@@ -23,4 +23,7 @@ Week Two - Credenza OpenGL Code Review
 <a href="https://youtu.be/4-teGXIMeoE" target="_blank">
   <img src="https://img.youtube.com/vi/4-teGXIMeoE/0.jpg" alt="CS-499 Code Review - Credenza OpenGL"
        style="border: 2px solid #ccc; border-radius: 10px; width: 100%; max-width: 560px; box-shadow: 0 4px 8px rgba(0,0,0,1);">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/YouTube_social_white_play.svg"
+       alt="Play" 
+       style="position: absolute; top: 50%; left: 50%; width: 64px; height: 64px; transform: translate(-50%, -50%); opacity:           0.8;">
 </a>
