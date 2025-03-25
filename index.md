@@ -28,7 +28,8 @@ Credenza OpenGL Code Review
 Enhancement One (ImGUI and Mesh Editor)
 
 <video autoplay loop muted playsinline
-  style="border: 2px solid #ccc; border-radius: 10px; width: 500px; max-width: 560px; box-shadow: 0 4px 8px rgba(0,0,0,1);">
+  style="border: 2px solid #ccc; border-radius: 10px; width: 500px; max-width: 560px; box-shadow: 0 4px 8px rgba(0,0,0,1);"
+  onclick="this.style.width = this.style.width === '800px' ? '400px' : '800px';">
   <source src="videos/Enhancement One Web.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
