@@ -33,6 +33,15 @@ Enhancement One (ImGUI and Mesh Editor)
   Your browser does not support the video tag.
 </video>
 
+## Week Four
+Enhancement Two (Assimp .obj Model Loader)
+
+<video class ="hover-zoom" autoplay loop muted playsinline
+  style="border: 2px solid #9ddcff; border-radius: 10px; width: 100%; max-width: 500px; box-shadow: 0 4px 8px rgba(0,0,0,1);">
+  <source src="videos/Enhancement Two Web.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 <style>
 .hover-zoom {
   transition: transform 0.3s ease;
