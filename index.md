@@ -42,6 +42,15 @@ Enhancement Two (Assimp .obj Model Loader)
   Your browser does not support the video tag.
 </video>
 
+## Week Five
+Enhancement Three (Saving and Loading JSON Scenes)
+
+<video class ="hover-zoom" autoplay loop muted playsinline
+  style="border: 2px solid #9ddcff; border-radius: 10px; width: 100%; max-width: 500px; box-shadow: 0 4px 8px rgba(0,0,0,1);">
+  <source src="videos/Enhancement Three.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 <style>
 .hover-zoom {
   transition: transform 0.3s ease;
