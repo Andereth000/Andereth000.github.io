@@ -2,6 +2,8 @@
 layout: default
 ---
 
+# Professional Self-Assessment
+
 Hello! My name is Ethan Anderson. I am a Computer Science student at Southern New Hampshire University, graduating in April of 2025.
 
 My passions lie in graphics programming, game engines/development, and real-time rendering. Currently, I am working part-time as a lead developer on a full-stack web application.
