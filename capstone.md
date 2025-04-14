@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<a href="/index.html" class="btn btn-back">← Go Back</a>
+<a href="/index.html" class="btn btn-back">⬅️ Go Back</a>
 
 # CS-499 Capstone
 
