@@ -2,6 +2,11 @@
 layout: default
 ---
 
+<div class="button-row">
+  <a href="/index.html" class="btn">← Go Back</a>
+  <a href="#" onclick="event.preventDefault(); openModal('imgui-narrative');" class="btn">📄 View Full Narrative</a>
+</div>
+
 [← Go Back](./index.html)
 
 # CS-499 Capstone
@@ -392,6 +397,29 @@ else if (tag.find("cylinder") != std::string::npos)
   font-size: 1.5rem;
   cursor: pointer;
 }
+
+.btn {
+  display: inline-block;
+  margin: 10px 10px 0 0;
+  padding: 10px 18px;
+  background-color: #9ddcff;
+  color: #111;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 6px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #6bcaff;
+  transform: translateY(-2px);
+}
+
+.button-row {
+  margin-top: 20px;
+}
+
 </style>
 
 <script>
