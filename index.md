@@ -16,6 +16,10 @@ Thank you for the interest in my work!
 
 -Ethan Anderson
 
+# Projects
+
+[CS-499 Capstone](./capstone.html).
+
 # CS-499 Capstone
 
 ## Week Two
