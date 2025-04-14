@@ -15,7 +15,7 @@ Credenza OpenGL Code Review
 ## Week Three
 Enhancement One (ImGUI and Mesh Editor)
 
-<a href="#" onclick="openModal('imgui-narrative')">View Full Narrative →</a>
+<a href="#" onclick="event.preventDefault(); openModal('imgui-narrative');">View Full Narrative →</a>
 
 <div id="imgui-narrative" class="modal">
   <div class="modal-content">
@@ -103,7 +103,8 @@ ImGui::DragFloat3("Position", &amp;mesh.position.x, 0.1f, -10.0f, 10.0f);</code>
 ## Week Four
 Enhancement Two (Assimp .obj Model Loader)
 
-<a href="#" onclick="openModal('assimp-narrative')">View Full Narrative →</a>
+<a href="#" onclick="event.preventDefault(); openModal('assimp-narrative');">View Full Narrative →</a>
+
 
 <div id="assimp-narrative" class="modal">
   <div class="modal-content">
@@ -208,7 +209,8 @@ glBindVertexArray(0);</code></pre>
 ## Week Five
 Enhancement Three (Saving and Loading JSON Scenes)
 
-<a href="#" onclick="openModal('json-narrative')">View Full Narrative →</a>
+<a href="#" onclick="event.preventDefault(); openModal('json-narrative');">View Full Narrative →</a>
+
 
 <div id="json-narrative" class="modal">
   <div class="modal-content">
