@@ -2,12 +2,7 @@
 layout: default
 ---
 
-<div class="button-row">
-  <a href="/index.html" class="btn">← Go Back</a>
-  <a href="#" onclick="event.preventDefault(); openModal('imgui-narrative');" class="btn">📄 View Full Narrative</a>
-</div>
-
-[← Go Back](./index.html)
+<a href="/index.html" class="btn btn-back">← Go Back</a>
 
 # CS-499 Capstone
 
@@ -22,7 +17,7 @@ Credenza OpenGL Code Review
 ## Week Three
 Enhancement One (ImGUI and Mesh Editor)
 
-<a href="#" onclick="event.preventDefault(); openModal('imgui-narrative');">View Full Narrative →</a>
+<a href="#" onclick="event.preventDefault(); openModal('imgui-narrative');" class="btn btn-narrative">📄 View Full Narrative</a>
 
 <div id="imgui-narrative" class="modal">
   <div class="modal-content">
@@ -110,7 +105,7 @@ ImGui::DragFloat3("Position", &amp;mesh.position.x, 0.1f, -10.0f, 10.0f);</code>
 ## Week Four
 Enhancement Two (Assimp .obj Model Loader)
 
-<a href="#" onclick="event.preventDefault(); openModal('assimp-narrative');">View Full Narrative →</a>
+<a href="#" onclick="event.preventDefault(); openModal('assimp-narrative');" class="btn btn-narrative">📄 View Full Narrative</a>
 
 
 <div id="assimp-narrative" class="modal">
@@ -216,7 +211,7 @@ glBindVertexArray(0);</code></pre>
 ## Week Five
 Enhancement Three (Saving and Loading JSON Scenes)
 
-<a href="#" onclick="event.preventDefault(); openModal('json-narrative');">View Full Narrative →</a>
+<a href="#" onclick="event.preventDefault(); openModal('json-narrative');" class="btn btn-narrative">📄 View Full Narrative</a>
 
 
 <div id="json-narrative" class="modal">
@@ -400,7 +395,6 @@ else if (tag.find("cylinder") != std::string::npos)
 
 .btn {
   display: inline-block;
-  margin: 10px 10px 0 0;
   padding: 10px 18px;
   background-color: #9ddcff;
   color: #111;
@@ -409,6 +403,7 @@ else if (tag.find("cylinder") != std::string::npos)
   border-radius: 6px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.15);
   transition: background-color 0.3s ease, transform 0.2s ease;
+  margin: 20px 0;
 }
 
 .btn:hover {
@@ -416,10 +411,13 @@ else if (tag.find("cylinder") != std::string::npos)
   transform: translateY(-2px);
 }
 
-.button-row {
-  margin-top: 20px;
+.btn-back {
+  margin-bottom: 40px;
 }
 
+.btn-narrative {
+  margin-top: 10px;
+}
 </style>
 
 <script>
