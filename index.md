@@ -18,7 +18,7 @@ Thank you for the interest in my work!
 
 # Projects
 
-[CS-499 Capstone](./capstone.html)
+[CS-499 Capstone](./capstone.md)
 
 # CS-499 Capstone
 
