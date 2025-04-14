@@ -2,9 +2,9 @@
 layout: default
 ---
 
-# CS-499 Capstone
-
 [← Go Back](./index.html)
+
+# CS-499 Capstone
 
 ## Week Two
 Credenza OpenGL Code Review
