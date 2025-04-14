@@ -3,7 +3,7 @@ layout: default
 ---
 
 <a href="/index.html" class="btn btn-back">⬅️ Go Back</a>
-<a href="https://github.com/yourusername/your-repo-name](https://github.com/Andereth000/CS-330-Computer-Graphics-And-Visualization" target="_blank" class="btn btn-repo">📁 View Repository</a>
+<a href="[https://github.com/yourusername/your-repo-name](https://github.com/Andereth000/CS-330-Computer-Graphics-And-Visualization]" target="_blank" class="btn btn-repo">📁 View Repository</a>
 
 # CS-499 Capstone
 
