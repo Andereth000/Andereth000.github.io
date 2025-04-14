@@ -3,6 +3,7 @@ layout: default
 ---
 
 <a href="/index.html" class="btn btn-back">⬅️ Go Back</a>
+<a href="https://github.com/yourusername/your-repo-name" target="_blank" class="btn btn-repo">📁 View Repository</a>
 
 # CS-499 Capstone
 
@@ -416,6 +417,10 @@ else if (tag.find("cylinder") != std::string::npos)
 }
 
 .btn-narrative {
+  margin-top: 10px;
+}
+
+.btn-repo {
   margin-top: 10px;
 }
 </style>
