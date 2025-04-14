@@ -18,4 +18,29 @@ Thank you for the interest in my work!
 
 # Projects
 
-## [CS-499 Capstone](./capstone.html)
+<a href="./capstone.html" class="btn btn-capstone">📘 CS-499 Capstone</a>
+
+<style>
+  .btn {
+    display: inline-block;
+    padding: 10px 18px;
+    background-color: #9ddcff;
+    color: #111;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 20px 0;
+  }
+  
+  .btn:hover {
+    background-color: #6bcaff;
+    transform: translateY(-2px);
+  }
+  
+  .btn-capstone {
+    margin-top: 30px;
+  }
+</style>
+
