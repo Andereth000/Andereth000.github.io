@@ -4,7 +4,8 @@ layout: default
 
 # CS-499 Capstone
 
-## Credenza OpenGL Code Review
+## Week Two
+Credenza OpenGL Code Review
 
 <a href="https://youtu.be/4-teGXIMeoE" target="_blank">
   <img src="https://imgur.com/QzFq6PU.png" alt="Play Video"
