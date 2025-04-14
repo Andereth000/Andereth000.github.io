@@ -18,7 +18,7 @@ Thank you for the interest in my work!
 
 # Projects
 
-<a href="./capstone.html" class="btn btn-capstone">📘 CS-499 Capstone</a>
+<a href="./capstone.html" class="btn btn-capstone">CS-499 Capstone</a>
 
 <style>
   .btn {
