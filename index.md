@@ -24,7 +24,7 @@ layout: default
 
 ---
 
-# Projects
+# Notable Projects
 
 <a href="./capstone.html" class="btn btn-capstone">CS-499 Capstone</a>
 
