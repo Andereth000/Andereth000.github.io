@@ -372,6 +372,14 @@ else if (tag.find("cylinder") != std::string::npos)
   z-index: 10;
 }
 
+@media (max-width: 1200px) {
+  .hover-zoom:hover {
+    transform: none;
+    cursor: default;
+    z-index: auto;
+  }
+}
+
 .modal {
   display: none;
   position: fixed;
