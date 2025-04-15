@@ -88,7 +88,7 @@ Enhancement One (ImGUI and Mesh Editor)
 
     <p>To render the meshes stored in the <code>m_meshes</code> vector, the program simply loops through each mesh added to the list, and sets their unique transformation, materials, textures, UV scales, and colors. Then the mesh draw function is called.</p>
 
-    <p>Throughout this process I learned how to build a UI using many useful ImGui functions, and manipulate my MESH_OBJECT struct with sliders, buttons, text fields, and color pickers, and gained a lot of knowledge on the extensive functionality of the ImGui library and the overall functionality and structure of this OpenGL rendering engine. Finally, I learned a lot about using a vector to track mesh objects in the scene and traversing that vector to add or remove meshes from the scene by index.</p>
+    <p>Throughout this process I learned how to build a UI using many useful ImGui functions, and manipulate my <code>MESH_OBJECT</code> struct with sliders, buttons, text fields, and color pickers, and gained a lot of knowledge on the extensive functionality of the ImGui library and the overall functionality and structure of this OpenGL rendering engine. Finally, I learned a lot about using a vector to track mesh objects in the scene and traversing that vector to add or remove meshes from the scene by index.</p>
 
     <p><strong>Example 3</strong></p>
     <pre><code>SceneManager::MESH_OBJECT&amp; mesh = g_SceneManager-&gt;GetMesh(curMeshIndex);
