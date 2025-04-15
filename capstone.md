@@ -350,13 +350,14 @@ else if (tag.find("cylinder") != std::string::npos)
   </div>
 </div>
 
-<video class ="hover-zoom" autoplay loop muted playsinline
+<video controls playsinline preload="metadata"
   style="border: 2px solid #9ddcff; border-radius: 10px; width: 100%; max-width: 500px; box-shadow: 0 4px 8px rgba(0,0,0,1);">
   <source src="videos/Enhancement Three.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
 <style>
+/*
 .hover-zoom {
   transition: transform 0.3s ease;
   cursor: zoom-in;
@@ -372,7 +373,7 @@ else if (tag.find("cylinder") != std::string::npos)
   transform-origin: center center;
   z-index: 10;
 }
-
+*/
 .modal {
   display: none;
   position: fixed;
