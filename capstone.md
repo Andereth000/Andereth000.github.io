@@ -368,7 +368,7 @@ else if (tag.find("cylinder") != std::string::npos)
   }
 
 .hover-zoom:hover {
-  transform: scale(calc(100vw / 500)); /* Assuming base width is 500px */
+  transform: scale(2.5);
   transform-origin: center center;
   z-index: 10;
 }
