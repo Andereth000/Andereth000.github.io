@@ -27,6 +27,7 @@ layout: default
 # Projects
 
 <a href="./capstone.html" class="btn btn-capstone">CS-499 Capstone</a>
+
 <a href="./wss.html" class="btn btn-wss">We See Shadows</a>
 
 <style>
