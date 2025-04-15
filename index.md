@@ -4,17 +4,25 @@ layout: default
 
 # Professional Self-Assessment
 
-Hello! My name is Ethan Anderson. I am a Computer Science student at Southern New Hampshire University, graduating in April of 2025.
+<div class="assessment-content">
 
-My passions lie in graphics programming, game engines/development, and real-time rendering. Currently, I am working part-time as a lead developer on a full-stack web application.
+<p>My name is Ethan Anderson. I am a Computer Science student at Southern New Hampshire University (SNHU), graduating in April of 2025.</p>
 
-This page is in progress while I work hard on my capstone project. My github account is linked at the top. It showcases all of the work I have accomplished so far. 
+<p>Completing the Bachelor of Science in Computer Science at SNHU has helped me to grow into a confident and capable developer. This portfolio is a way for me to showcase my technical skills, my creative side, and show that I am ready to take on real-world projects. Throughout the program, I have developed a wide range of technical skills and have come to understand what excites me most in the world of software engineering. This includes building tools, creating systems, and solving technical problems in creative ways.</p>
 
-If there are more projects you would like to see I can privately share the code. 👀
+<p>While developing the enhancements for my capstone project, I gained a deeper understanding of software engineering and design, data structures and algorithms, databases, and how all these concepts come together to create a functional and useful 3D graphics application. Furthermore, I utilized industry-standard third-party libraries such as ImGui, Assimp, and nlohmann JSON to demonstrate my ability to implement realistic and user-friendly software solutions that I will continue to encounter throughout my career. These enhancements pushed me to apply foundational software engineering concepts such as building modular, readable, maintainable, scalable, secure, and user-focused software that solves difficult problems and creates meaningful value.</p>
 
-Thank you for the interest in my work!
+<p>Throughout my time at SNHU, I have taken the initiative to explore the broader world of computer science and its overlap with applied math and science. That curiosity led me to discover my passion for graphics programming, game development, and web development, where technical skills and creativity meet. The knowledge and experience I have gained during this degree will continue to shape my learning and growth moving forward.</p>
 
--Ethan Anderson
+<p>Outside of class, I led development on a real-world web application and participated in a game jam where I built a 3D horror game called <em>We See Shadows</em> using the Godot engine. These experiences helped me grow in areas like team collaboration, communicating with non-technical audiences, managing project scope, and delivering results within a limited timeframe.</p>
+
+<p>This portfolio will continue to grow as I move through my career. It represents not only the work I have completed during my time at SNHU but also the foundation I will continue to build on as a developer and creator.</p>
+
+<p>Feel free to explore the projects listed below and check out my GitHub for more. Thank you for taking the time to view my work and for your interest in what I’ve created.</p>
+
+</div>
+
+---
 
 # Projects
 
