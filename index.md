@@ -4,8 +4,6 @@ layout: default
 
 # Professional Self-Assessment
 
----
-
 <div class="assessment-content">
 
 <p>My name is Ethan Anderson. I am a Computer Science student at Southern New Hampshire University (SNHU), graduating in April of 2025.</p>
@@ -27,8 +25,6 @@ layout: default
 ---
 
 # Projects
-
----
 
 <a href="./capstone.html" class="btn btn-capstone">CS-499 Capstone</a>
 
