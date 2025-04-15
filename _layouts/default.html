@@ -14,22 +14,18 @@
     uniform vec2 u_resolution;
     
     void main() {
-        vec2 uv = gl_FragCoord.xy / u_resolution.xy;
+        vec2 frag = gl_FragCoord.xy;
     
-        // Animate UVs slowly over time
-        float shift = sin(iTime * 0.2) * 0.1;
-        uv.x += shift;
-        uv.y += cos(iTime * 0.2) * 0.1;
-    
-        // Color gradient based on UV position and time
+        // Create a wavy gradient using screen coords
         vec3 color = vec3(
-            0.5 + 0.5 * sin(iTime + uv.x * 3.0),
-            0.5 + 0.5 * sin(iTime + uv.y * 3.0 + 2.0),
-            0.5 + 0.5 * sin(iTime + uv.x * 3.0 + 4.0)
+            0.5 + 0.5 * sin(iTime * 0.3 + frag.x * 0.01),
+            0.5 + 0.5 * sin(iTime * 0.3 + frag.y * 0.01 + 2.0),
+            0.5 + 0.5 * sin(iTime * 0.3 + frag.x * 0.01 + 4.0)
         );
     
         gl_FragColor = vec4(color, 1.0);
     }
+
   </script>
   <script>
     shaderWebBackground.shade({
