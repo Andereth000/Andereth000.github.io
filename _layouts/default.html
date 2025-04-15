@@ -10,24 +10,14 @@
   <script src="https://xemantic.github.io/shader-web-background/dist/shader-web-background.min.js"></script>
   <script type="x-shader/x-fragment" id="image">
     precision mediump float;
-    uniform float u_time;
-    uniform vec2 u_resolution;
-    
-    void main() {
+uniform float u_time;
+uniform vec2 u_resolution;
+
+void main() {
     vec2 uv = gl_FragCoord.xy / u_resolution;
-
-    float shift = sin(u_time * 0.2) * 0.1;
-    uv.x += shift;
-    uv.y += cos(u_time * 0.2) * 0.1;
-
-    vec3 color = vec3(
-    0.5 + 0.2 * sin(u_time + uv.x * 3.0),
-    0.5 + 0.2 * sin(u_time + uv.y * 3.0 + 2.0),
-    0.5 + 0.2 * sin(u_time + uv.x * 3.0 + 4.0)
-	);
-
-
-    gl_FragColor = vec4(color, 1.0);
+    float d = length(fract(uv * 10.0) - 0.5);
+    float dot = smoothstep(0.05, 0.03, d + 0.02 * sin(u_time + uv.x * 5.0));
+    gl_FragColor = vec4(vec3(0.1 + 0.1 * dot), 1.0);
 }
 
   </script>
