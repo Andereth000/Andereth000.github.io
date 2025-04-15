@@ -12,37 +12,50 @@
     precision mediump float;
     uniform float u_time;
     uniform vec2 u_resolution;
+    uniform vec2 u_mouse;
     
     void main() {
         vec2 uv = gl_FragCoord.xy / u_resolution;
         uv.x *= u_resolution.x / u_resolution.y;
     
         float d = length(fract(uv * 10.0) - 0.5);
-        float dot = smoothstep(0.05, 0.03, d + 0.02 * sin(u_time + uv.x * 5.0));
+        float dot = smoothstep(0.05, 0.03, d);
+    
+        vec2 mouse = u_mouse / u_resolution;
+        mouse.x *= u_resolution.x / u_resolution.y;
+    
+        float dist = distance(uv, mouse);
+    
+        float mouseFade = smoothstep(-0.200, 1.000, dist);
     
         vec3 tint = vec3(
-            0.5 + 0.5 * sin(u_time + uv.x * 4.0),
-            0.4 + 0.4 * sin(u_time + uv.y * 3.0 + 1.0),
-            0.3 + 0.3 * sin(u_time + uv.x * 2.0 + 2.0)
+          0.5 + 0.5 * sin(u_time + uv.x),
+          0.4 + 0.4 * sin(u_time + uv.y),
+          0.3 + 0.3 * sin(u_time + uv.x * 2.0 + 2.0)
         );
     
-        vec3 color = mix(vec3(0.05), tint, dot);
+        vec3 color = mix(vec3(0.05), tint, dot * mouseFade);
         gl_FragColor = vec4(color, 1.0);
     }
-
   </script>
   <script>
+    let mouse = [0, 0];
+    window.addEventListener("mousemove", e => {
+      mouse = [e.clientX, window.innerHeight - e.clientY];
+    });
+    
     shaderWebBackground.shade({
-    shaders: {
-      image: {
-        uniforms: {
-          u_time: (gl, loc) => gl.uniform1f(loc, performance.now() / 1000),
-          u_resolution: (gl, loc) =>
-            gl.uniform2f(loc, window.innerWidth, window.innerHeight)
+      shaders: {
+        image: {
+          uniforms: {
+            u_time: (gl, loc) => gl.uniform1f(loc, performance.now() / 1000),
+            u_resolution: (gl, loc) =>
+              gl.uniform2f(loc, window.innerWidth, window.innerHeight),
+            u_mouse: (gl, loc) => gl.uniform2f(loc, mouse[0], mouse[1])
+          }
         }
       }
-    }
-  });
+    });
   </script>
   <style>
     .shader-web-background-fallback {
