@@ -97,7 +97,7 @@ ImGui::DragFloat3("Position", &amp;mesh.position.x, 0.1f, -10.0f, 10.0f);</code>
 </div>
 
 
-<video class ="hover-zoom" autoplay loop muted playsinline
+<video controls playsinline preload="metadata"
   style="border: 2px solid #9ddcff; border-radius: 10px; width: 100%; max-width: 500px; box-shadow: 0 4px 8px rgba(0,0,0,1);">
   <source src="videos/Enhancement One Web.mp4" type="video/mp4">
   Your browser does not support the video tag.
