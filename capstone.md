@@ -50,7 +50,7 @@ Enhancement One (ImGUI and Mesh Editor)
     <p>By making the rendering engine more intuitive and user-friendly with the ImGui interface, I have successfully improved the accessibility of the application. This allows potential users, whether they are other developers or someone with less technical knowledge, to interact and build OpenGL scenes.</p>
 
     <p><strong>Reflect on the process of enhancing and modifying the artifact. What did you learn as you were creating it and improving it? What challenges did you face?</strong></p>
-    <p>The biggest challenge when modifying this artifact was refactoring the SceneManager.cpp and SceneManager.h files and building a struct to store all the different properties of meshes to be rendered. This MESH_OBJECT struct can be expanded to add or remove properties and will be useful for managing scene data to be saved and loaded in the future.</p>
+    <p>The biggest challenge when modifying this artifact was refactoring the SceneManager.cpp and SceneManager.h files and building a struct to store all the different properties of meshes to be rendered. This <code>MESH_OBJECT</code> struct can be expanded to add or remove properties and will be useful for managing scene data to be saved and loaded in the future.</p>
 
     <p><strong>Example 1</strong></p>
     <pre><code>struct MESH_OBJECT
@@ -66,7 +66,7 @@ Enhancement One (ImGUI and Mesh Editor)
     std::function&lt;void()&gt; drawFunction;
 };</code></pre>
 
-    <p>MESH_OBJECT holds properties for each primitive mesh, including a tag (name) of the object, rotation vector, position vector, scale vector, material tag, texture tag, UV scale vector, shader color vector (rgba), and finally passes in the mesh’s unique draw function. These properties can then be passed to the ImGui UI for manipulation.</p>
+    <p><code>MESH_OBJECT</code> holds properties for each primitive mesh, including a tag (name) of the object, rotation vector, position vector, scale vector, material tag, texture tag, UV scale vector, shader color vector (rgba), and finally passes in the mesh’s unique draw function. These properties can then be passed to the ImGui UI for manipulation.</p>
 
     <p><strong>Example 2</strong></p>
     <pre><code>void SceneManager::RenderMeshes()
@@ -86,7 +86,7 @@ Enhancement One (ImGUI and Mesh Editor)
     }
 }</code></pre>
 
-    <p>To render the meshes stored in the m_meshes vector, the program simply loops through each mesh added to the list, and sets their unique transformation, materials, textures, UV scales, and colors. Then the mesh draw function is called.</p>
+    <p>To render the meshes stored in the <code>m_meshes</code> vector, the program simply loops through each mesh added to the list, and sets their unique transformation, materials, textures, UV scales, and colors. Then the mesh draw function is called.</p>
 
     <p>Throughout this process I learned how to build a UI using many useful ImGui functions, and manipulate my MESH_OBJECT struct with sliders, buttons, text fields, and color pickers, and gained a lot of knowledge on the extensive functionality of the ImGui library and the overall functionality and structure of this OpenGL rendering engine. Finally, I learned a lot about using a vector to track mesh objects in the scene and traversing that vector to add or remove meshes from the scene by index.</p>
 
