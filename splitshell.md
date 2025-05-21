@@ -10,7 +10,7 @@ layout: default
 Working on muliplayer sync, new SFX, and concept menu
 
 <a href="https://www.youtube.com/watch?v=W_We4srCevM" target="_blank">
-  <img src="https://imgur.com/a/euPJ2BP.png" alt="Play Video"
+  <img src="https://i.imgur.com/KYMfUQt.png" alt="Play Video"
        style="border: 2px solid #9ddcff; border-radius: 10px; width: 100%; max-width: 500px; box-shadow: 0 4px 8px rgba(0,0,0,1);">
 </a>
 
