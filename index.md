@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Professional Self-Assessment
+# Professional Assessment
 
 My name is Ethan Anderson. I am a Computer Science student at Southern New Hampshire University (SNHU), graduating in May 2025.
 
@@ -26,6 +26,11 @@ Please feel free to explore the projects listed below and check out my GitHub fo
 <a href="./capstone.html" class="btn btn-capstone">CS-499 Capstone</a>
 
 <a href="./wss.html" class="btn btn-wss">We See Shadows</a>
+
+# Current Projects
+
+<a href="./splitshell.html" class="btn btn-splitshell">Split Shell</a>
+
 
 <style>
   .btn {
