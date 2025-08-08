@@ -4,7 +4,7 @@ layout: default
 
 # Professional Assessment
 
-My name is Ethan Anderson. I am a Computer Science student at Southern New Hampshire University (SNHU), graduating in May 2025.
+My name is Ethan Anderson. I am a recent Computer Science graduate of Southern New Hampshire University (SNHU).
 
 Completing my Bachelor of Science in Computer Science at SNHU has helped me to mature into a confident and capable developer. This portfolio is a way for me to showcase my technical skills, my creative side, and demonstrate that I am ready to take on real-world projects. Throughout the program, I have developed a wide range of technical skills and have come to understand what excites me most in the world of software engineering.  I have learned that I am most passionate about taking ideas and creating unique ways to bring them to life, whether that is by writing code, designing new programs, or troubleshooting in existing areas. 
 
