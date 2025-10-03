@@ -7,7 +7,7 @@ layout: default
 # [JAR]
 
 ## [JAR] - Teaser Trailer
-Working on muliplayer sync, new SFX, and concept menu
+Submission for Hawktober Horrors 2025 Game Jam
 
 <a href="https://www.youtube.com/watch?v=hcGIEMXbxlU" target="_blank">
   <img src="https://i.imgur.com/hymeqQ9.png" alt="Play Video"
