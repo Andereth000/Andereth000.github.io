@@ -29,7 +29,7 @@ Please feel free to explore the projects listed below and check out my GitHub fo
 
 # Current Projects
 
-<a href="./splitshell.html" class="btn btn-splitshell">Split Shell</a>
+<a href="./jar.html" class="btn btn-splitshell">[JAR]</a>
 
 
 <style>
