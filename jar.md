@@ -4,13 +4,13 @@ layout: default
 
 <a href="/index.html" class="btn btn-back">⬅️ Go Back</a>
 
-# Split Shell
+# [JAR]
 
-## Devlog 00
+## [JAR] - Teaser Trailer
 Working on muliplayer sync, new SFX, and concept menu
 
-<a href="https://www.youtube.com/watch?v=W_We4srCevM" target="_blank">
-  <img src="https://i.imgur.com/KYMfUQt.png" alt="Play Video"
+<a href="https://www.youtube.com/watch?v=hcGIEMXbxlU" target="_blank">
+  <img src="https://i.imgur.com/hymeqQ9.png" alt="Play Video"
        style="border: 2px solid #9ddcff; border-radius: 10px; width: 100%; max-width: 500px; box-shadow: 0 4px 8px rgba(0,0,0,1);">
 </a>
 
