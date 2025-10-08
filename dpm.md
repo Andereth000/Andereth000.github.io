@@ -26,6 +26,8 @@ Tech Stack: SDL3 (C++)
    </details>
 </details>
 
+---
+
 <details>
 <summary>[JAR] (10/7/2025 - Ongoing)</summary>
 
@@ -40,6 +42,8 @@ Tech Stack: Godot (GDScript), Blender3D, FL Studio
       </details>
    </details>
 </details>
+
+---
 
 <details>
 <summary>Traci's Purple Presser (10/7/2025 - Ongoing)</summary>
@@ -56,6 +60,8 @@ Tech Stack: Pygame (Python), Buildozer
    </details>
 </details>
 
+---
+
 <details>
 <summary>Flutter App for Physicians (10/7/2025 - Ongoing)</summary>
 
@@ -71,7 +77,7 @@ Tech Stack: Flutter (Dart), Firebase/Firestore
    </details>
 </details>
 
-
+---
 
 # Post-Mortem
 <details>
@@ -89,6 +95,8 @@ Tech Stack: Godot (GDScript), Magicka Voxel
    </details>
 </details>
 
+---
+
 <details>
 <summary>Ray Tracing in One Weekend (10/7/2025 - Ongoing)</summary>
 
@@ -104,6 +112,8 @@ Tech Stack: SDL2 (C++)
    </details>
 </details>
 
+---
+
 <details>
 <summary>Split Shell (10/7/2025 - Ongoing)</summary>
 
@@ -118,6 +128,8 @@ Tech Stack: Godot (GDScript), Blender3D
       </details>
    </details>
 </details>
+
+---
 
 <details>
 <summary>Project Spoke (10/7/2025 - Ongoing)</summary>
