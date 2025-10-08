@@ -31,6 +31,11 @@ Please feel free to explore the projects listed below and check out my GitHub fo
 
 <a href="./jar.html" class="btn btn-splitshell">[JAR]</a>
 
+---
+
+Feel free to checkout more write-ups below!
+<a href="./dpm.html" class="btn btn-dpm">Devlogs & Post-Mortem</a>
+
 
 <style>
   .btn {
@@ -56,6 +61,10 @@ Please feel free to explore the projects listed below and check out my GitHub fo
   }
 
   .btn-wss {
+    margin-top: 0px;
+  }
+
+  .btn-dpm {
     margin-top: 0px;
   }
 </style>
