@@ -33,8 +33,8 @@ Please feel free to explore the projects listed below and check out my GitHub fo
 
 ---
 
-Feel free to check out more write-ups here!
-<a href="./dpm.html" class="btn btn-dpm">Devlogs & Post-Mortem</a>
+<!--Feel free to check out more write-ups here!
+<a href="./dpm.html" class="btn btn-dpm">Devlogs & Post-Mortem</a>-->
 
 
 <style>
