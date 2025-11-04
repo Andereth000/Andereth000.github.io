@@ -1,0 +1,23 @@
+.page-block--tpp {
+  background-image: url(/images/tpp_cover.png);
+  background-position: 40% 50%;
+  background-size: 300%;
+  min-height: calc((100vh - 75px - 48px) / 2);
+}
+
+.page-block--tpp .block-title {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  z-index: 2;
+  font-family: 'NimbusMono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: clamp(1.5rem, 5vw, 3rem);
+  letter-spacing: .08em;
+  color: #7B1FA2; /* Purple color to match the game theme */
+  opacity: 0;
+  transform: none;
+  background-color: #0f0f1081;
+}

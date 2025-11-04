@@ -1,0 +1,23 @@
+/* Social icons styling */
+.social-links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-left: 24px;
+}
+
+.social-link {
+  color: #d6d6d8;
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+
+.social-link:hover {
+  opacity: 1;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  display: block;
+}

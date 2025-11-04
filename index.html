@@ -1,0 +1,210 @@
+<head>
+	<meta name="generator" content="Hugo 0.151.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ETHAN ANDERSON</title><link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/social.css">
+<link rel="stylesheet" href="/css/hamburger.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Manrope:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet"><script src="/js/hamburger.js" defer></script>
+<script src="/js/scrollFade.js" defer></script>
+
+<link rel="alternate" type="application/rss&#43;xml" href="http://localhost:1313/index.xml" title="ETHAN ANDERSON">
+</head>
+
+<body class="home">
+    <script src="https://xemantic.github.io/shader-web-background/dist/shader-web-background.min.js"></script>
+  <script type="x-shader/x-fragment" id="image">
+    precision highp float;
+
+    uniform float u_time;
+    uniform vec2  u_resolution;
+    
+    float noise(in vec2 st) {
+        return fract(sin(dot(st.xy, vec2(12.9898, 78.233))) * 43758.5453);
+    }
+    
+    vec3 hsv2rgb(vec3 c) {
+        vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);
+        vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);
+        return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);
+    }
+    
+    void main() {
+        vec2 p = (gl_FragCoord.xy - 0.1 * u_resolution.xy) / min(u_resolution.x, u_resolution.y);
+        float dist = length(p);
+        
+        dist /= 1.0;
+    
+        float slow_noise = noise(p * 4.0 + u_time * 0.2);
+        float fast_noise = noise(p * 10.0 - u_time * 0.5);
+        
+        float displacement = (slow_noise * 0.6 + fast_noise * 0.4 - 0.5) * -0.008;
+        float surface_radius = .5 + displacement;
+        
+        float core = smoothstep(surface_radius, surface_radius * .9, dist);
+        vec3 core_color = vec3(0.023,0.023,0.025);
+    
+        float glow_falloff = smoothstep(0.616, surface_radius, dist);
+        
+        vec3 hsv_color = vec3(fract(u_time * 0.05), 0.8, 1.0);
+        vec3 glow_color = hsv2rgb(hsv_color);
+        
+        float pulse = 0.8 + (sin(u_time * 3.0) * 0.5 + 0.5) * 0.4;
+    
+        vec3 col = vec3(0.059, 0.059, 0.063);
+        
+        col += glow_falloff * glow_color * pulse;
+        
+        col = mix(col, core_color, core);
+    
+        gl_FragColor = vec4(col, 1.0);
+    }
+  </script>
+  <script>
+    const isMobile = /Mobi|Android/i.test(navigator.userAgent);
+
+    shaderWebBackground.shade({
+      shaders: {
+        image: {
+          uniforms: {
+            u_time: (gl, loc) => gl.uniform1f(loc, performance.now() / 1000),
+            u_resolution: (gl, loc) =>
+              gl.uniform2f(loc, gl.canvas.width, gl.canvas.height),
+            u_isMobile: (gl, loc) => gl.uniform1i(loc, isMobile ? 1 : 0),
+          }
+        }
+      }
+    });
+
+  </script>
+
+  <header class="site-header">
+    <div id="hamburger" class="hamburger">
+  <div class="bar" id="bar1"></div>
+  <div class="bar" id="bar2"></div>
+</div>
+    <nav class="site-nav">
+  <a class="logo" href="http://localhost:1313/">
+    ETHAN ANDERSON
+  </a>
+</nav>
+
+  </header>
+  <div id="square">
+  <nav class='dropdown-menu'>
+    
+      <a href="/about">About</a>
+    
+      <a href="/jar">Jar</a>
+    
+      <a href="/wss">WSS</a>
+    
+      <a href="/credenza">Credenza OpenGL</a>
+    
+      <a href="/tpp">TPP</a>
+    
+  </nav>
+</div>
+  <main class="content">
+    <div id="container3D"></div>
+    <section class="page-block page-block--a"> <p><sub>Software Engineer</sub>
+<br><br><br></p>
+<h1 id="intro">INTRO</h1>
+<p>I am a software engineer focused on creating games and exploring computer graphics and web tech.</p>
+<p><a href="/about" class="btn btn-repo">About Me</a></p>
+<style>
+/* Accent + base palette */
+:root {
+  --bg: #0f0f10;
+  --fg: #d6d6d8;
+  --accent: #00b4d8;
+  --accent-02: rgba(0,180,216,0.15);
+  --card: #111214;
+  --card-border: #1b1c1f;
+}
+
+/* Buttons (kept for repo link) */
+.btn {
+  display: inline-block;
+  padding: 10px 18px;
+  background-color: var(--accent);
+  color: var(--bg);
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 6px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+  transition: background-color 0.2s ease, transform 0.15s ease;
+  margin: 20px 0;
+}
+.btn:hover { transform: translateY(-2px); }
+.btn-repo { margin-top: 10px; }
+</style>
+ 
+    </section>
+    <section class="page-block page-block--b">
+      <div class="content" ><center><h1>CURRENT PROJECT</h1></center></div>
+      <div class="block-title">[JAR]</div>
+      <a href="/jar/" class="side-link">
+    <span class="label">View</span>
+    <span class="arrow">→</span>
+  </a>
+      </section>
+    <section class="page-block page-block--c">
+      <div class="content" ><center><h1>PAST PROJECTS</h1></center></div>
+      <div class="block-title">We See<br> Shadows</div>
+       <a href="/wss/" class="side-link">
+    <span class="label">View</span>
+    <span class="arrow">→</span>
+  </a>
+      </section>
+    <section class="page-block page-block--d">
+      <div class="content"></div>
+      <div class="block-title">Credenza<br>OpenGL</div>
+      <a href="/credenza/" class="side-link">
+    <span class="label">View</span>
+    <span class="arrow">→</span>
+  </a>
+      </section>
+
+    <section class="page-block page-block--tpp">
+      <div class="content"></div>
+      <div class="block-title">Traci's<br>Purple<br>Presser</div>
+      <a href="/tpp/" class="side-link">
+    <span class="label">View</span>
+    <span class="arrow">→</span>
+  </a>
+    </section>
+
+    <section class="page-block page-block--f"></section>
+  </main>
+
+  <footer class="site-footer">
+  <p>&copy;2025 ETHAN ANDERSON</p>
+  <div class="social-links">
+  <a href="https://github.com/Andereth000" class="social-link" target="_blank" rel="noopener" title="GitHub">
+    <svg class="social-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+    </svg>
+  </a>
+  
+  <a href="https://www.linkedin.com/in/ethan-anderson-27263a22a/" class="social-link" target="_blank" rel="noopener" title="LinkedIn">
+    <svg class="social-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+      <rect x="2" y="9" width="4" height="12"></rect>
+      <circle cx="4" cy="4" r="2"></circle>
+    </svg>
+  </a>
+
+  <a href="https://ascents.itch.io/" class="social-link" target="_blank" rel="noopener" title="itch.io">
+    <svg class="social-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M3 3v3.4c0 1.8 1.7 3.6 3.4 3.6 1.8 0 3.3-1.5 3.3-3.3 0 1.8 1.5 3.3 3.3 3.3 1.8 0 3.3-1.5 3.3-3.3 0 1.8 1.5 3.3 3.3 3.3 1.7 0 3.4-1.8 3.4-3.6V3H3zm4.7 14c-1.8 0-2.8-.8-4.7-1v8h22v-8c-1.9.2-2.9 1-4.7 1-2.4 0-3.3-.4-5.3-.4-2 0-2.9.4-5.3.4z"/>
+    </svg>
+  </a>
+</div>
+</footer>
+</body>
+</html>
