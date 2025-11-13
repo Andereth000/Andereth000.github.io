@@ -121,9 +121,23 @@ canvas.emscripten { border: 0px none; background-color: black; }
     </div>
 
     <div class="emscripten_border">
-      <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" tabindex=-1></canvas>
+      <canvas class="emscripten" id="canvas"
+        style="width:100vw; height:100vh;"></canvas>
     </div>
     <textarea id="output" rows="8"></textarea>
+	
+	<script>
+	function resizeCanvas() {
+		const canvas = document.getElementById('canvas');
+		const w = canvas.clientWidth;
+		const h = canvas.clientHeight;
+		canvas.width = w;
+		canvas.height = h;
+	}
+	window.addEventListener("resize", resizeCanvas);
+	window.addEventListener("load", resizeCanvas);
+	</script>
+
 
     <script type='text/javascript'>
       var statusElement = document.getElementById('status');
