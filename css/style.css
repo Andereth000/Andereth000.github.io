@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
 }
 
-main.content{
+main.content {
   padding: 0 24px !important;
 }
 
@@ -101,7 +101,7 @@ a:hover {
 #container3D {
   position: fixed;
   inset: 0;
-  z-index: 1;
+  z-index: 5;
   pointer-events: none;
 }
 
