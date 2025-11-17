@@ -2,45 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on ETHAN ANDERSON</title>
-    <link>https://mynewhugosite.com/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in Home on ETHAN ANDERSON</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 29 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://mynewhugosite.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Traci&#39;s Purple Presser</title>
-      <link>https://mynewhugosite.com/tpp/</link>
+      <link>http://localhost:1313/tpp/</link>
       <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://mynewhugosite.com/tpp/</guid>
+      <guid>http://localhost:1313/tpp/</guid>
       <description>&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;tracis-purple-presser&#34;&gt;Traci&amp;rsquo;s Purple Presser&lt;/h1&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/Andereth000/Tracis-Purple-Presser&#34; target=&#34;_blank&#34; class=&#34;btn btn-repo&#34;&gt;View on GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Traci’s Purple Presser is a simple PyGame project I built over a weekend on my phone using Pydroid3. The version on this page was ported with Pygbag. I got the idea from my wife’s cousin’s physical therapy sessions, where she practiced pressing colored buttons to build coordination. I designed the game with randomly generated purple buttons, confetti explosion, and a popping sound. It ended up giving her endless amounts of simple fun.&#xA;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Credenza OpenGL</title>
-      <link>https://mynewhugosite.com/credenza/</link>
+      <title>Credenza Engine</title>
+      <link>http://localhost:1313/credenza-engine/</link>
       <pubDate>Fri, 17 Oct 2025 01:52:34 +0000</pubDate>
-      <guid>https://mynewhugosite.com/credenza/</guid>
-      <description>&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;h1&gt;Credenza OpenGL&lt;/h1&gt;&#xA;&lt;br&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/Andereth000/CS-330-Computer-Graphics-And-Visualization&#34; target=&#34;_blank&#34; class=&#34;btn btn-repo&#34;&gt;View on GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Credenza OpenGL (named after the code modeled credenza) was my capstone project at SNHU. The engine was provided by the instructor, and my goal was to make three enhancements over three weeks to the engine.&lt;/p&gt;&#xA;&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;link rel=&#34;stylesheet&#34; href=&#34;https://mynewhugosite.com/css/game-layout.css&#34;&gt;&#xA;&lt;div class=&#34;engine-showcase&#34;&gt;&#xA;  &lt;div class=&#34;game-container&#34;&gt;&#xA;    &lt;iframe src=&#34;https://mynewhugosite.com/credenza/Credenza_OpenGL.html&#34; allow=&#34;fullscreen&#34; allowfullscreen mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;credenza-opengl-code-review&#34;&gt;Credenza OpenGL Code Review&lt;/h2&gt;&#xA;&lt;a href=&#34;https://youtu.be/4-teGXIMeoE&#34; target=&#34;_blank&#34;&gt;&#xA;  &lt;img src=&#34;https://imgur.com/QzFq6PU.png&#34; alt=&#34;Play Video&#34;&#xA;       style=&#34;border: 2px solid #9ddcff; border-radius: 10px; width: 100%; max-width: 500px; box-shadow: 0 4px 8px rgba(0,0,0,1);&#34;&gt;&#xA;&lt;/a&gt;&#xA;&lt;br&gt;&lt;br&gt;&lt;br&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;enhancement-one-imgui-and-mesh-editor&#34;&gt;Enhancement One (ImGUI and Mesh Editor)&lt;/h2&gt;&#xA;&lt;details class=&#34;narrative&#34;&gt;&#xA;  &lt;summary&gt;Read Full Narrative&lt;/summary&gt;&#xA;  &lt;div class=&#34;narrative-content&#34;&gt;&#xA;    &lt;h2&gt;Enhancement One: Software Engineering and Design&lt;/h2&gt;&#xA;    &lt;p&gt;&lt;strong&gt;Ethan Anderson&lt;br&gt;CS-499: Computer Science Capstone&lt;br&gt;Prof. Alim&lt;br&gt;March 18, 2025&lt;/strong&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/credenza-engine/</guid>
+      <description>&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/game-layout.css&#34;&gt;&#xA;&lt;div class=&#34;engine-showcase&#34;&gt;&#xA;  &lt;div class=&#34;game-container&#34;&gt;&#xA;    &lt;iframe src=&#34;http://localhost:1313/credenza/Credenza_OpenGL.html&#34; allow=&#34;fullscreen&#34; allowfullscreen mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Credenza OpenGL</title>
+      <link>http://localhost:1313/credenza/</link>
+      <pubDate>Fri, 17 Oct 2025 01:52:34 +0000</pubDate>
+      <guid>http://localhost:1313/credenza/</guid>
+      <description>&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;h1&gt;Credenza OpenGL&lt;/h1&gt;&#xA;&lt;br&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/Andereth000/CS-330-Computer-Graphics-And-Visualization&#34; target=&#34;_blank&#34; class=&#34;btn btn-repo&#34;&gt;View on GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/credenza-engine&#34; target=&#34;_blank&#34; class=&#34;btn btn-engine hide-on-mobile&#34;&gt;View WebGL Build&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Credenza OpenGL (named after the code modeled credenza) was my capstone project at SNHU. The engine was provided by the instructor, and my goal was to make three enhancements over three weeks to the engine.&lt;/p&gt;&#xA;&lt;h2 id=&#34;credenza-opengl-code-review&#34;&gt;Credenza OpenGL Code Review&lt;/h2&gt;&#xA;&lt;a href=&#34;https://youtu.be/4-teGXIMeoE&#34; target=&#34;_blank&#34;&gt;&#xA;  &lt;img src=&#34;https://imgur.com/QzFq6PU.png&#34; alt=&#34;Play Video&#34;&#xA;       style=&#34;border: 2px solid #9ddcff; border-radius: 10px; width: 100%; max-width: 500px; box-shadow: 0 4px 8px rgba(0,0,0,1);&#34;&gt;&#xA;&lt;/a&gt;&#xA;&lt;br&gt;&lt;br&gt;&lt;br&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;enhancement-one-imgui-and-mesh-editor&#34;&gt;Enhancement One (ImGUI and Mesh Editor)&lt;/h2&gt;&#xA;&lt;details class=&#34;narrative&#34;&gt;&#xA;  &lt;summary&gt;Read Full Narrative&lt;/summary&gt;&#xA;  &lt;div class=&#34;narrative-content&#34;&gt;&#xA;    &lt;h2&gt;Enhancement One: Software Engineering and Design&lt;/h2&gt;&#xA;    &lt;p&gt;&lt;strong&gt;Ethan Anderson&lt;br&gt;CS-499: Computer Science Capstone&lt;br&gt;Prof. Alim&lt;br&gt;March 18, 2025&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Wss</title>
-      <link>https://mynewhugosite.com/wss/</link>
+      <link>http://localhost:1313/wss/</link>
       <pubDate>Thu, 16 Oct 2025 15:23:24 +0000</pubDate>
-      <guid>https://mynewhugosite.com/wss/</guid>
+      <guid>http://localhost:1313/wss/</guid>
       <description>&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;h1 class=&#34;h-cinzel&#34;&gt;&lt;span style=&#34;color:#d6d6d8;&#34;&gt;We See Shadows&lt;/span&gt;&lt;/h1&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/Andereth000/We-See-Shadows&#34; target=&#34;_blank&#34; class=&#34;btn btn-repo&#34;&gt;View on GitHub&lt;/a&gt; &lt;a href=&#34;https://ascents.itch.io/we-see-shadows&#34; target=&#34;_blank&#34; class=&#34;btn btn-itch&#34;&gt;Itch.io Page&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;We See Shadows was made in two weeks for Acerola Jam Ø.&lt;/p&gt;&#xA;&lt;p&gt;*&lt;em&gt;Web build in development&lt;/em&gt;&lt;/p&gt;&#xA;&lt;style&gt;&#xA;&#xA;:root {&#xA;  --bg: #0f0f10;&#xA;  --fg: #d6d6d8;&#xA;  --accent: #00b4d8;&#xA;  --accent-02: rgba(0,180,216,0.15);&#xA;  --card: #111214;&#xA;  --card-border: #1b1c1f;&#xA;}&#xA;&#xA;.modal {&#xA;  display: none;&#xA;  position: fixed;&#xA;  z-index: 99;&#xA;  left: 0; top: 0; width: 100%; height: 100%;&#xA;  background-color: rgba(0,0,0,0.8);&#xA;  overflow: auto;&#xA;}&#xA;.modal-content {&#xA;  background-color: #111;&#xA;  margin: 10% auto;&#xA;  padding: 2rem;&#xA;  border-radius: 10px;&#xA;  width: 80%;&#xA;  color: #fff;&#xA;}&#xA;.close {&#xA;  float: right;&#xA;  font-size: 1.5rem;&#xA;  cursor: pointer;&#xA;}&#xA;&#xA;.btn {&#xA;  display: inline-block;&#xA;  padding: 10px 18px;&#xA;  background-color: var(--accent);&#xA;  color: var(--bg);&#xA;  font-weight: 600;&#xA;  text-decoration: none;&#xA;  border-radius: 6px;&#xA;  box-shadow: 0 4px 6px rgba(0,0,0,0.15);&#xA;  transition: background-color 0.2s ease, transform 0.15s ease;&#xA;  margin: 20px 0;&#xA;}&#xA;.btn:hover { transform: translateY(-2px); }&#xA;.btn-repo { margin-top: 10px; }&#xA;.btn-itch { background-color: #fa5c5c; }&#xA;&lt;/style&gt;</description>
     </item>
     <item>
       <title>Jar</title>
-      <link>https://mynewhugosite.com/jar/</link>
+      <link>http://localhost:1313/jar/</link>
       <pubDate>Thu, 16 Oct 2025 15:15:12 +0000</pubDate>
-      <guid>https://mynewhugosite.com/jar/</guid>
+      <guid>http://localhost:1313/jar/</guid>
       <description>&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;h1 class=&#34;h-nimbus&#34;&gt;&lt;span style=&#34;color:#960001;&#34;&gt;[JAR]&lt;/span&gt;&lt;/h1&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ascents.itch.io/jar&#34; target=&#34;_blank&#34; class=&#34;btn btn-itch&#34;&gt;Itch.io Page&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;[JAR] was made in one month, for the Hawktober Horrors 2025 game jam.&lt;/p&gt;&#xA;&lt;p&gt;*&lt;em&gt;Web build in development&lt;/em&gt;&lt;/p&gt;&#xA;&lt;style&gt;&#xA;&#xA;:root {&#xA;  --bg: #0f0f10;&#xA;  --fg: #d6d6d8;&#xA;  --accent: #00b4d8;&#xA;  --accent-02: rgba(0,180,216,0.15);&#xA;  --card: #111214;&#xA;  --card-border: #1b1c1f;&#xA;}&#xA;&#xA;.modal {&#xA;  display: none;&#xA;  position: fixed;&#xA;  z-index: 99;&#xA;  left: 0; top: 0; width: 100%; height: 100%;&#xA;  background-color: rgba(0,0,0,0.8);&#xA;  overflow: auto;&#xA;}&#xA;.modal-content {&#xA;  background-color: #111;&#xA;  margin: 10% auto;&#xA;  padding: 2rem;&#xA;  border-radius: 10px;&#xA;  width: 80%;&#xA;  color: #fff;&#xA;}&#xA;.close {&#xA;  float: right;&#xA;  font-size: 1.5rem;&#xA;  cursor: pointer;&#xA;}&#xA;&#xA;.btn {&#xA;  display: inline-block;&#xA;  padding: 10px 18px;&#xA;  background-color: var(--accent);&#xA;  color: var(--bg);&#xA;  font-weight: 600;&#xA;  text-decoration: none;&#xA;  border-radius: 6px;&#xA;  box-shadow: 0 4px 6px rgba(0,0,0,0.15);&#xA;  transition: background-color 0.2s ease, transform 0.15s ease;&#xA;  margin: 20px 0;&#xA;}&#xA;.btn:hover { transform: translateY(-2px); }&#xA;.btn-repo { margin-top: 10px; }&#xA;.btn-itch { background-color: #fa5c5c; }&#xA;&lt;/style&gt;</description>
     </item>
     <item>
       <title>About</title>
-      <link>https://mynewhugosite.com/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://mynewhugosite.com/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;about&#34;&gt;ABOUT&lt;/h1&gt;&#xA;&lt;p&gt;I&amp;rsquo;m a software engineer based in North Carolina with a computer science degree from SNHU, where I focused on software engineering. I build games, web apps, and experimental projects using C++, Python, GDScript, HTML, and CSS. I&amp;rsquo;m quick to pick up new tools and adapt to whatever stack a project needs.&lt;/p&gt;&#xA;&lt;p&gt;I really enjoy horror, and a lot of the games I make reflect that. I also make music and use various tools like Figma and Blender when I need to design or prototype visuals.&#xA;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description>
     </item>
   </channel>
