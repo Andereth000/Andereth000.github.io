@@ -115,6 +115,14 @@ a:hover {
   align-items: center;
   justify-content: space-between;
   padding: 0 24px;
+  /* Let the empty header bar pass clicks through to the open menu underneath;
+     re-enable pointer events only on its interactive children. */
+  pointer-events: none;
+}
+
+.site-header .logo,
+.site-header #hamburger {
+  pointer-events: auto;
 }
 
 .site-footer {
@@ -146,6 +154,7 @@ a:hover {
 }
 
 .page-block--b {
+  min-height: 68vh;
   background-image: url(/images/jar_cover.png);
   background-size: 100%;
   background-position: 30% 50%;
@@ -178,7 +187,7 @@ a:hover {
   background-image: url(/images/we_see_shadows.png);
   background-position: 40% 50%;
   background-size: 300%;
-  min-height: calc((100vh - 75px - 48px) / 2);
+  min-height: 68vh;
 }
 
 .h-cinzel {
@@ -201,7 +210,7 @@ a:hover {
 
 .page-block--d {
   background-image: url(/images/enhancement_two.jpg);
-  min-height: calc((100vh - 75px - 48px) / 2);
+  min-height: 68vh;
   background-position: 20% 40%;
   background-size: 150%;
 }
@@ -210,7 +219,7 @@ a:hover {
   background-image: url(/images/tpp_cover.png);
   background-position: 40% 50%;
   background-size: 300%;
-  min-height: calc((100vh - 75px - 48px) / 2);
+  min-height: 68vh;
 }
 
 .page-block--d .block-title{
@@ -250,6 +259,123 @@ a:hover {
   border-radius: 50%;
   z-index: -1;
   filter: drop-shadow(0 0 20px rgba(123, 31, 162, 0.3));
+}
+
+.page-block--acd {
+  min-height: 68vh;
+  background-image: url(/images/acd_cover.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #0f0f10;
+}
+
+.page-block--acd .block-title{
+  position: absolute; inset: 0;
+  display: flex; align-items: center; justify-content: center;
+  pointer-events: none; z-index: 2;
+  font-family: 'Cinzel', serif;
+  font-size: clamp(1.5rem, 5vw, 3rem);
+  letter-spacing: .08em;
+  text-align: center;
+  color: white;
+  opacity: 0;
+  background-color: #0f0f1081;
+}
+
+/* CounterLine panel: editorial white to match the publication's own logo lockup */
+.page-block--counterline {
+  min-height: 68vh;
+  background-color: #ffffff;
+}
+
+.page-block--counterline .block-title{
+  position: absolute; inset: 0;
+  display: flex; align-items: center; justify-content: center;
+  pointer-events: none; z-index: 2;
+  opacity: 0;
+}
+
+/* Reusable project sub-tags (kind/role line + tech line) across project pages */
+.project-subtitle {
+  color: #8a8a8d;
+  font-family: 'Manrope', sans-serif;
+  letter-spacing: .04em;
+  margin-top: -6px;
+}
+.project-tech {
+  color: #8a8a8d;
+  font-family: 'Manrope', sans-serif;
+  font-size: .9rem;
+  letter-spacing: .03em;
+  margin-top: 28px;
+}
+
+/* White header card so the black CounterLine lockup reads on the /counterline page */
+.cl-page-header {
+  display: inline-flex;
+  justify-content: center;
+  background: #fff;
+  padding: 32px 40px;
+  border-radius: 6px;
+  margin: 0 0 20px;
+  max-width: 100%;
+}
+
+/* Logo lockup ported from The CounterLine's own site header */
+.cl-lockup { display: flex; align-items: center; gap: 0; }
+
+.cl-mark {
+  position: relative;
+  flex: 0 0 auto;
+  width: 122px;
+  height: 63px;
+}
+.cl-mark img { position: absolute; inset: 0; width: 100%; height: 100%; }
+.cl-mark .cl-mark-sliver {
+  inset: auto;
+  left: 55.9%; top: 2.9%; width: 2.65%; height: 97.1%;
+}
+
+.cl-text { display: flex; flex-direction: column; align-items: center; gap: 15px; }
+
+.cl-wordmark {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1;
+  color: #000;
+  white-space: nowrap;
+  text-transform: uppercase;
+  transition: color .2s ease;
+}
+
+.cl-tagline { display: flex; align-items: center; gap: 10px; }
+.cl-rule { display: block; width: 20px; border-top: 1px solid #000; }
+.cl-tag {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1;
+  color: #000;
+  letter-spacing: 4.2px;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+
+.page-block--counterline:hover .cl-wordmark { color: #822626; }
+
+/* Dark side-link so "View" reads on the white panel */
+.page-block--counterline .side-link { color: #222221; }
+.page-block--counterline .side-link::before { background: rgba(34,34,33,.35); }
+
+@media (max-width: 768px) {
+  .cl-mark { width: 75px; height: 39px; }
+  .cl-text { gap: 8px; }
+  .cl-wordmark { font-size: 28px; }
+  .cl-tagline { gap: 6px; }
+  .cl-rule { width: 12px; }
+  .cl-tag { font-size: 8px; letter-spacing: 2px; }
 }
 
 .page-block--f {
@@ -331,7 +457,7 @@ a:hover {
 
   .page-block--d {
     background-image: url(/images/enhancement_two.jpg);
-    min-height: calc((100vh - 75px - 48px) / 2);
+    min-height: 68vh;
     background-position: 30% 50%;
     background-size: 400%
   }

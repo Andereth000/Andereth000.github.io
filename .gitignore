@@ -1,0 +1,9 @@
+# Hugo build output and lock file
+public/
+.hugo_build.lock
+resources/_gen/
+
+# OneDrive / Windows cruft
+Thumbs.db
+desktop.ini
+.DS_Store

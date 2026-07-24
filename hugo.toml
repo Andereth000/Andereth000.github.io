@@ -1,0 +1,12 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'en-us'
+title = 'Andereth'
+
+[module]
+  [[module.mounts]]
+  source = '.'
+  target = 'static'
+  # The mount source is the project root, which contains publishDir and .git.
+  # Without these excludes every build copies public/ into public/, so the
+  # output nests one level deeper each time.
+  excludeFiles = ['public/**', '.git/**']
