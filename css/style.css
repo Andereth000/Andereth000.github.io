@@ -115,8 +115,6 @@ a:hover {
   align-items: center;
   justify-content: space-between;
   padding: 0 24px;
-  /* Let the empty header bar pass clicks through to the open menu underneath;
-     re-enable pointer events only on its interactive children. */
   pointer-events: none;
 }
 
@@ -159,7 +157,7 @@ a:hover {
   background-size: 100%;
   background-position: 30% 50%;
   background-repeat: no-repeat;
-  background-color: #0f0f10; /* matching your site's background color */
+  background-color: #0f0f10;
 }
 
 .page-block--b .block-title{
@@ -178,9 +176,9 @@ a:hover {
 .h-nimbus {
   font-family: 'NimbusMono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   letter-spacing: .08em;
-  text-shadow: 
-    2px 2px 0 rgba(0,0,0,0.2),   /* Subtle depth shadow */
-    0 0 10px rgba(150,0,1,0.3);   /* Soft glow in your accent color */
+  text-shadow:
+    2px 2px 0 rgba(0,0,0,0.2),
+    0 0 10px rgba(150,0,1,0.3);
 }
 
 .page-block--c {
@@ -237,10 +235,10 @@ a:hover {
 
 .page-block--tpp .block-title {
   position: absolute; inset: 0;
-  display: flex; 
-  align-items: center; 
+  display: flex;
+  align-items: center;
   justify-content: center;
-  pointer-events: none; 
+  pointer-events: none;
   z-index: 2;
   font-family: 'NimbusMono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   font-size: clamp(1.5rem, 5vw, 3rem);
@@ -283,7 +281,6 @@ a:hover {
   background-color: #0f0f1081;
 }
 
-/* CounterLine panel: editorial white to match the publication's own logo lockup */
 .page-block--counterline {
   min-height: 68vh;
   background-color: #ffffff;
@@ -296,7 +293,6 @@ a:hover {
   opacity: 0;
 }
 
-/* Reusable project sub-tags (kind/role line + tech line) across project pages */
 .project-subtitle {
   color: #8a8a8d;
   font-family: 'Manrope', sans-serif;
@@ -311,7 +307,6 @@ a:hover {
   margin-top: 28px;
 }
 
-/* White header card so the black CounterLine lockup reads on the /counterline page */
 .cl-page-header {
   display: inline-flex;
   justify-content: center;
@@ -322,7 +317,6 @@ a:hover {
   max-width: 100%;
 }
 
-/* Logo lockup ported from The CounterLine's own site header */
 .cl-lockup { display: flex; align-items: center; gap: 0; }
 
 .cl-mark {
@@ -365,11 +359,15 @@ a:hover {
 
 .page-block--counterline:hover .cl-wordmark { color: #822626; }
 
-/* Dark side-link so "View" reads on the white panel */
 .page-block--counterline .side-link { color: #222221; }
 .page-block--counterline .side-link::before { background: rgba(34,34,33,.35); }
 
 @media (max-width: 768px) {
+  .page-block--counterline .block-title {
+    inset: 0 72px;
+  }
+
+  .cl-lockup { max-width: 100%; }
   .cl-mark { width: 75px; height: 39px; }
   .cl-text { gap: 8px; }
   .cl-wordmark { font-size: 28px; }
@@ -378,11 +376,24 @@ a:hover {
   .cl-tag { font-size: 8px; letter-spacing: 2px; }
 }
 
+@media (max-width: 520px) {
+  .cl-lockup {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .cl-mark {
+    width: clamp(52px, 16vw, 75px);
+    height: auto;
+    aspect-ratio: 122 / 63;
+  }
+  .cl-wordmark { font-size: clamp(17px, 6vw, 26px); }
+  .cl-tag { font-size: 7px; letter-spacing: 1.5px; }
+}
+
 .page-block--f {
   background: transparent;
   min-height: calc((100vh - 75px - 48px) / 4);
 }
-
 
 .side-link{
   position:absolute;
@@ -398,7 +409,6 @@ a:hover {
   z-index:3;
   transition:opacity .25s ease;
 }
-
 
 .side-link .label {
   writing-mode: vertical-rl;
@@ -448,8 +458,7 @@ a:hover {
   .site-nav a {
     padding: 8px 0;
   }
-  
-  /* Adjust jar cover image for mobile */
+
   .page-block--b {
     background-size: cover;
     background-position: center 30%;
@@ -476,7 +485,6 @@ a:hover {
     z-index:3;
     transition:opacity .25s ease;
   }
-
 
   .side-link .label {
     writing-mode: vertical-rl;
@@ -516,6 +524,5 @@ a:hover {
       transform: translateY(8vh) scale(0.98);
       opacity: 0.98;
     }
-
 
 }
