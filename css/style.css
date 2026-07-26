@@ -377,17 +377,34 @@ a:hover {
 }
 
 @media (max-width: 520px) {
+  .page-block--counterline .block-title {
+    inset: 0;
+    padding: 0 76px 0 24px;
+    box-sizing: border-box;
+  }
+
   .cl-lockup {
     flex-direction: column;
     gap: 10px;
+    max-width: 100%;
   }
+
   .cl-mark {
-    width: clamp(52px, 16vw, 75px);
+    width: clamp(48px, 14vw, 70px);
     height: auto;
     aspect-ratio: 122 / 63;
   }
-  .cl-wordmark { font-size: clamp(17px, 6vw, 26px); }
-  .cl-tag { font-size: 7px; letter-spacing: 1.5px; }
+
+  .cl-wordmark {
+    font-size: clamp(14px, 5vw, 24px);
+    white-space: normal;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .cl-tagline { gap: 5px; }
+  .cl-rule { width: 10px; }
+  .cl-tag { font-size: 7px; letter-spacing: 1.2px; }
 }
 
 .page-block--f {
