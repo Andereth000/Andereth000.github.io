@@ -35,4 +35,7 @@ document.addEventListener('click', function(e) {
     bar2.classList.remove("bar2");		
     ham.classList.remove("mystyle");
   }
+
+document.querySelectorAll('.copyright-year').forEach(function (el) {
+    el.textContent = new Date().getFullYear();
 });
