@@ -53,26 +53,23 @@
 <p class="acd-subtitle">Alternate-reality game &middot; solo (engineering, writing, art)</p>
 
 <div class="acd-callout">
-  <strong>Heads up:</strong> this is an <em>alternate-reality game</em> (ARG). It's meant to be
-  investigated, not just played. It starts as an e-book and spills out into the real web.
+  This is an <em>alternate-reality game</em> (ARG). It's meant to be
+  investigated, and the 3D scenes are not easily accessible.
 </div>
 
 <p><a href="https://ascents.itch.io/a-certain-discomfort" target="_blank" class="btn btn-itch">Itch.io Page</a></p>
 
 <p>A Certain Discomfort is an alternate-reality game hidden inside an EPUB. At its center are
-<strong>five interactive 3D levels, rendered by a software rasterizer I wrote in pure JavaScript</strong>.
-No WebGL, no engine. I optimized it to run inside the <strong>Kindle e-reader's browser</strong>, which
-is heavily constrained.</p>
+<strong>five interactive 3D levels, rendered by a software rasterizer written in JavaScript</strong>.
+The initial goal was to optimize a game that could be hidden in an unexpected place. For example, a link inside of an <strong>EPUB on a Kindle e-reader</strong>. The browser on a kindle is a heavily constrained environment, on very limited hardware, which I found intriguing.</p>
 
-<p>Around that core, it's a multi-surface system. There's the <strong>EPUB</strong> itself, a fictional
+<p>On that note, there are multiple parts to this system. There's the <strong>EPUB</strong> itself, a fictional
 <strong>in-world website</strong>, a <strong>Twilio phone line</strong> players could actually call, and
-a <strong>multi-stage chain of ciphers</strong>. I built the whole thing solo: the writing, the 3D
-modeling in Blender, the web development, the EPUB compilation, and the deployment and server admin on
-<strong>DigitalOcean</strong> over SSH.</p>
+a few different <strong>ciphers</strong> along the way. Writing, 3D
+modeling in Blender, web development, EPUB compilation, deployment on
+<strong>DigitalOcean</strong> over SSH, are just a few of the skills I sharpened or picked up along the way.</p>
 
-<p>It's the one project that pulls together the three things I care about most: graphics (a rasterizer
-built from scratch under tight constraints), games (ARG design, levels, and puzzles), and web (deploying
-across a lot of surfaces).</p>
+<p>It's the one project that pulls together the three things I care about most: graphics (software rasterizer, data structures of 3D models), games (ARG design, levels, and puzzles), and web design and development.</p>
 
 <p class="acd-tech">JavaScript &middot; software rasterization &middot; EPUB &middot; Twilio &middot; DigitalOcean &middot; Blender &middot; cryptography</p>
 
@@ -96,7 +93,7 @@ across a lot of surfaces).</p>
       Your browser does not support the video tag.
     </video>
   </div>
-  <p class="acd-video-caption">An early demo of the rasterizer running on a Kindle.</p>
+  <p class="acd-video-caption">An early demo of the rasterizer running on a Kindle. (Extremely slow!!!)</p>
 </div>
 
 <style>
