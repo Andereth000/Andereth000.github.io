@@ -1,7 +1,7 @@
 let bar1 = document.getElementById('bar1');
 let bar2 = document.getElementById('bar2');
 let ham = document.getElementById('hamburger');
-let circle = document.getElementById('square');
+let square = document.getElementById('square');
 
 ham.addEventListener('click', function (e) {
   e.stopPropagation();
@@ -14,7 +14,7 @@ ham.addEventListener('click', function (e) {
   } else {
     bar1.classList.add("bar1");
     bar2.classList.add("bar2");		
-    ham.classList.add("mystyle");	 							
+    ham.classList.add("mystyle");					
   }
 });
 
@@ -35,7 +35,5 @@ document.addEventListener('click', function(e) {
     bar2.classList.remove("bar2");		
     ham.classList.remove("mystyle");
   }
-
-document.querySelectorAll('.copyright-year').forEach(function (el) {
-    el.textContent = new Date().getFullYear();
+});
 });
