@@ -36,4 +36,3 @@ document.addEventListener('click', function(e) {
     ham.classList.remove("mystyle");
   }
 });
-});
